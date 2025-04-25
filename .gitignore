@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment
+.env
+*.env
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+staticfiles/
+
+
+apidoc.md
+
+# Ignore all migration files
+**/migrations/*.py
+
+# But don't ignore __init__.py
+!**/migrations/__init__.py
